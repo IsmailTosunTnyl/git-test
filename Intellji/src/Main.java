@@ -58,7 +58,7 @@ public class Main {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
-
+        System.out.println("en yeni versiyon");
 
 
 
