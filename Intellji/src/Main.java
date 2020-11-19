@@ -58,8 +58,8 @@ public class Main {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
-        System.out.println("en eski versiyon");
 
+        System.out.println("gitHub Test");
 
 
     }
