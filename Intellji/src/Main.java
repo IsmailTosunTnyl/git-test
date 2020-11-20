@@ -23,7 +23,7 @@ public class Main {
             System.out.println(i+". "+list.get(i));
 
         }
-        */
+
 
         myStack<String> stack = new myStack<>();
 
@@ -59,7 +59,38 @@ public class Main {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
 
-        System.out.println("gitHub Test v4");
+        System.out.println("gitHub Test v4");*/
+
+        SLLQueue<String> myQueue = new SLLQueue<>();
+
+        myQueue.enqueue("Göktuğ");
+        myQueue.enqueue("Ahmet");
+        myQueue.enqueue("Sevcan");
+        myQueue.enqueue("Emre");
+        myQueue.enqueue("Samet");
+
+        System.out.println(myQueue);
+
+
+
+
+
+        myQueue.dequeue();
+        myQueue.dequeue();
+
+        System.out.println(myQueue);
+
+        myQueue.enqueue("Erkin");
+
+        System.out.println(myQueue);
+
+        myQueue.dequeue();
+        myQueue.dequeue();
+        myQueue.dequeue();
+        myQueue.dequeue();
+        myQueue.enqueue("erkan");
+
+        System.out.println(myQueue);
 
 
     }
